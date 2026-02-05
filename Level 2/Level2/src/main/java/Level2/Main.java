@@ -2,7 +2,7 @@ package Level2;
 
 public class Main {
     public static void main(String[] args) {
-        //Call methods
+
         int age = ConsoleReader.readInt("Type your age");
         System.out.println("Age: " + age);
 
