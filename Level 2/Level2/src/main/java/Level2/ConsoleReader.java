@@ -7,7 +7,6 @@ import java.util.Scanner;
 public class ConsoleReader {
     private static final Scanner scanner = new Scanner(System.in);
 
-    //With InputMismatchException
     public static byte readByte(String message) {
         while (true) {
             try {
@@ -56,7 +55,6 @@ public class ConsoleReader {
         }
     }
 
-    //Personalized Exception
     public static char readChar(String message) {
         while (true) {
             try {
